@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+      
+    background-color:gray;
+}
+.d-flex a button:hover{
+    color: green;
+}
+
+/*slide*/
+.carousel-item active img{
+    width:100%;
+    height: 400px;
+}
+/*end slide*/
+/*movies*/
+.Container {
+    margin: 20px 20px 20px 30px;
+  }
+  .movie img {
+    margin-right: 1%;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: -4px 4px 5px 0 #000;
+    transition: 0.8s;
+  }
+  
+  .movie img:hover {
+    transform: translateY(-10px);
+  }
+  .movie-title{
+      color: whitesmoke;
+      text-align: center;
+      font-size: 20px;
+      word-wrap: break-word;
+      margin:5px 5px 20px;
+  }
+  hr{
+      padding: 10px;
+  }
+  h4{
+    text-align: center;
+    background-color:#222222;
+    border-radius: 20px;
+    font-size: 50px;
+    color: whitesmoke;
+    padding-top: 10px;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+ion-icon{
+   color: black;
+}
+/*end movie*/
+/*footer*/	
+footer {
+    background-color: #33383c;
+    padding: 30px 0px;
+    
+}	       
+
+.logo {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.movie-fl ion-icon{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin: 20px 0px;
+}
+.movie-fl a ion-icon:hover{
+    color: red;
+}
+.movie-address span, 
+.movie-fl span {
+   color: white; 
+   font-weight: bold; 
+   border-bottom: 1px solid gray; 
+   padding: 10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.movie-address li a{
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.movie-address li{
+    margin: 20px 0px;
+    list-style: none;
+}
+
+.movie-address li a:hover{
+    color: red;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+/*end footer*/

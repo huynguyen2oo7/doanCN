@@ -1,0 +1,121 @@
+body {
+    height: 100px;
+    background-position: center
+}
+/*login*/
+.login_page {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto
+}
+
+.form {
+    position: relative;
+    background:rgba(0, 0, 0, 0.6);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 20px
+}
+
+.form input {
+    font-family: "Roboto", Sans-serif;
+    outline: 1;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 10px
+}
+
+.form button {
+    font-family: "Roboto", Sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 2;
+    border-radius: 4px;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.form button:hover,
+.form button:active {
+    background: #43A047;
+    
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 16px
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none
+}
+
+.form .register_form {
+    display: none
+}
+/*footer*/
+footer {
+    background-color: #33383c;
+    padding: 30px 0px;
+    
+}	       
+
+.logo {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.movie-fl ion-icon{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin: 20px 0px;
+}
+.movie-address span, 
+.movie-fl span {
+   color: white; 
+   font-weight: bold; 
+   border-bottom: 1px solid gray; 
+   padding: 10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.movie-address li a{
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.movie-address li{
+    margin: 20px 0px;
+    list-style: none;
+}
+
+.movie-address li a:hover{
+    color: red;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.movie-address .fa {
+    color: red;
+}
